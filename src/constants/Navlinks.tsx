@@ -1,4 +1,4 @@
-import { IoHomeOutline, IoHomeSharp } from "react-icons/io5";
+import { IoHomeSharp } from "react-icons/io5";
 import { MdAssignment } from "react-icons/md";
 import { IoCheckmarkCircleSharp } from "react-icons/io5";
 import { IoCallSharp } from "react-icons/io5";

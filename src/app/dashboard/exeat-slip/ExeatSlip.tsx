@@ -135,7 +135,13 @@ export default ExeatSlip;
 
 /* ---------- Helpers ---------- */
 
-const Field = ({ label, value }: { label: string; value?: any }) => (
+const Field = ({
+  label,
+  value,
+}: {
+  label: string;
+  value?: string | number | [];
+}) => (
   <div className="space-y-1">
     <p className="text-xs">{label}</p>
     <p className=" pb-1">{value || "—"}</p>

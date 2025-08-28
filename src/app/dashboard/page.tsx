@@ -17,10 +17,10 @@ const Home = () => {
             request for an exeat form, please follow these steps:
           </p>
           <ol className="text-[#888ea8] text-sgm w-[80%] m-auto list-decimal leading-8 my-5">
-            <li> Click on "request an exeat" to start</li>
-            <li> Click on "request an exeat" to start</li>
-            <li> Click on "request an exeat" to start</li>
-            <li> Click on "request an exeat" to start</li>
+            <li> {`Click on "request an exeat" to start`}</li>
+            <li> {`Click on "request an exeat" to start`}</li>
+            <li> {`Click on "request an exeat" to start`}</li>
+            <li> {`Click on "request an exeat" to start`}</li>
           </ol>
         </div>
         <Link href={"/dashboard/request-exeat"}>

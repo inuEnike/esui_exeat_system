@@ -3,7 +3,6 @@ import Image from "next/image";
 import React from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { useNavigation } from "@/context";
 
 const SideNav = () => {
   const path = usePathname();

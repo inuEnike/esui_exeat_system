@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { usePathname } from "next/navigation";
 import Nav from "./components/nav";
 import SideNav from "./components/sideNav";
 import { useNavigation } from "@/context";

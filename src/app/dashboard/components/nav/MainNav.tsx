@@ -5,7 +5,7 @@ import { FaBell } from "react-icons/fa6";
 
 const MainNav = () => {
   const { handleToggle } = useNavigation();
-  let message = 1;
+  const message = 1;
 
   return (
     <div className="bg-white shadow-xs px-7 py-3 relative">

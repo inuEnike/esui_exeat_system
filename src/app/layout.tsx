@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins, PT_Serif, Exo_2 } from "next/font/google";
+import { Exo_2 } from "next/font/google";
 import "./globals.css";
 import { NavigationProvider } from "@/context";
 

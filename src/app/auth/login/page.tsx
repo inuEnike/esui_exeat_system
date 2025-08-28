@@ -43,9 +43,9 @@ const Login = () => {
         />
 
         <p className="text-right! py-3 w-full text-sm">
-          Don't have an account
+          {"Don't have an account"}
           <Link href={"/auth/signup"}>
-            <span className="text-[#4361ee]">{" "}Login</span>
+            <span className="text-[#4361ee]"> Login</span>
           </Link>
         </p>
 
