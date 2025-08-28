@@ -1,15 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Poppins, PT_Serif, Exo_2 } from "next/font/google";
 import "./globals.css";
+import { NavigationProvider } from "@/context";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+// Load Poppins from Google Fonts
+const poppins = Exo_2({
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: ["400"], // only allowed weight for Exo_2
+  variable: "--font-poppins", // creates a CSS variable for Tailwind/theme
 });
 
 export const metadata: Metadata = {
@@ -24,10 +22,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${poppins.variable} antialiased`}>
+        <NavigationProvider>{children}</NavigationProvider>
       </body>
     </html>
   );
